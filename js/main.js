@@ -1,5 +1,6 @@
-const panorama = new PANOLENS.ImagePanorama( 'images/panel1.jpeg' );
+const panorama = new PANOLENS.ImagePanorama( 'images/panel2.mp4' );
 const panorama2 = new PANOLENS.ImagePanorama('images/pano5.jpg');
+const panorama3 = new PANOLENS.ImagePanorama('images/panel1.jpeg');
 let imageContainer = document.querySelector('.image-container')
 
 
@@ -18,6 +19,7 @@ const viewer = new PANOLENS.Viewer({
 
 panorama.link( panorama2, infospotPositions[0]);
 panorama2.link( panorama, infospotPositions[1]);
+panorama3.link( panorama, infospotPositions[2]);
 
 viewer.add( panorama,panorama2 );
 
