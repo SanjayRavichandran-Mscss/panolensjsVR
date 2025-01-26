@@ -1,0 +1,11 @@
+{
+  "name": "3dpanorama",
+  "version": "1.0.0",
+  "description": "create 3d panarama with panolens js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
